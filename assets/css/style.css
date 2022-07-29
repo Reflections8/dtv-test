@@ -2,19 +2,19 @@
 /*FONTS*/
 @font-face {
   font-family: 'Play';
-  src: url("/assets/fonts/Play-Regular.woff");
+  src: url("../fonts/Play-Regular.woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Play';
-  src: url("/assets/fonts/Play-Bold.woff");
+  src: url("../fonts/Play-Bold.woff");
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url("/assets/fonts/Inter-Regular.woff");
+  src: url("../fonts/Inter-Regular.woff");
   font-weight: 400;
 }
 

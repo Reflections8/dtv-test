@@ -184,7 +184,7 @@ body {
 
 .section--intro {
   height: 100vh;
-  background-image: url("/assets/img/intro.jpg");
+  background-image: url("../img/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -307,7 +307,7 @@ body {
 
 /*ABOUT US*/
 .section--about {
-  background-image: url("/assets/img/about-us/bg.jpg");
+  background-image: url("../img/about-us/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 3%;
@@ -528,7 +528,7 @@ body {
 
 /*FREEFORM*/
 .section--freeform {
-  background-image: url("/assets/img/freeform/bg.jpg");
+  background-image: url("../img/freeform/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -647,7 +647,7 @@ body {
 }
 
 .products__inner::before {
-  content: url("/assets/img/tab-products/cloud-lower.png");
+  content: url("../img/tab-products/cloud-lower.png");
   position: absolute;
   bottom: -44%;
   left: -44%;
@@ -656,7 +656,7 @@ body {
 }
 
 .products__inner::after {
-  content: url("/assets/img/tab-products/cloud-upper.png");
+  content: url("../img/tab-products/cloud-upper.png");
   position: absolute;
   right: -50%;
   top: -22%;
@@ -758,7 +758,7 @@ body {
 }
 
 .accordion__title::after {
-  content: url("/assets/img/accordion/arrow.svg");
+  content: url("../img/accordion/arrow.svg");
   position: absolute;
   right: 0;
   -webkit-transition: all 150ms ease;
@@ -812,8 +812,8 @@ body {
 
 /*FOOTER FORM*/
 .section-form {
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(11.92%, rgba(255, 255, 255, 0)), color-stop(86.4%, rgba(255, 255, 255, 0)), to(#FFFFFF)), url("/assets/img/footer-form/bg.jpg");
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 11.92%, rgba(255, 255, 255, 0) 86.4%, #FFFFFF 100%), url("/assets/img/footer-form/bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(11.92%, rgba(255, 255, 255, 0)), color-stop(86.4%, rgba(255, 255, 255, 0)), to(#FFFFFF)), url("../img/footer-form/bg.jpg");
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 11.92%, rgba(255, 255, 255, 0) 86.4%, #FFFFFF 100%), url("../img/footer-form/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1134,7 +1134,7 @@ body {
   }
   /*INTRO*/
   .section--intro {
-    background-image: url("/assets/img/intro-small.jpg");
+    background-image: url("../img/intro-small.jpg");
   }
   /*ABOUT US*/
   .section__subtitle--about,
@@ -1317,7 +1317,7 @@ body {
     padding: 15px;
   }
   .accordion__title::after {
-    content: url("/assets/img/accordion/arrow-small.svg");
+    content: url("../img/accordion/arrow-small.svg");
   }
   /*FOOTER FORM*/
   .footer-form__name,
